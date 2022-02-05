@@ -81,20 +81,17 @@ function ObjectDetection() {
       {/* <div className="flex items-center justify-center">
         <div className="w-[320px] h-[240px] md:w-[640px] md:h-[480px] bg-red-300 transition-all duration-300"></div>
       </div> */}
-      <div className="flex">
+      <div className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px]">
         <Webcam
-          className="abolute mr-auto ml-auto left-0 right-0"
-          height={480}
-          width={640}
+          className="abolute object-cover mr-auto ml-auto left-0 right-0"
           ref={webcamRef}
+          muted={true}
           style={{
             zindex: 9,
           }}
         />
         <canvas
-          className="absolute mr-auto ml-auto left-0 right-0"
-          height={480}
-          width={640}
+          className="absolute object-cover mr-auto ml-auto left-0 right-0"
           ref={canvasRef}
           style={{
             zindex: 8,
