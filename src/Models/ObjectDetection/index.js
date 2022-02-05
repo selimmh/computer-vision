@@ -84,14 +84,17 @@ function ObjectDetection() {
       <div className="flex">
         <Webcam
           className="abolute mr-auto ml-auto left-0 right-0"
+          height={480}
+          width={640}
           ref={webcamRef}
-          muted={true}
           style={{
             zindex: 9,
           }}
         />
         <canvas
           className="absolute mr-auto ml-auto left-0 right-0"
+          height={480}
+          width={640}
           ref={canvasRef}
           style={{
             zindex: 8,
