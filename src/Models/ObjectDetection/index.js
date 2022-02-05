@@ -81,9 +81,9 @@ function ObjectDetection() {
       {/* <div className="flex items-center justify-center">
         <div className="w-[320px] h-[240px] md:w-[640px] md:h-[480px] bg-red-300 transition-all duration-300"></div>
       </div> */}
-      <div className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px]">
+      <div className="grid grid-cols-1 w-[320px] h-[240px] md:w-[640px] md:h-[480px]">
         <Webcam
-          className="abolute object-contain mr-auto ml-auto left-0 right-0"
+          className="row-start-1 col-start-1 w-full h-full"
           ref={webcamRef}
           muted={true}
           style={{
@@ -91,7 +91,7 @@ function ObjectDetection() {
           }}
         />
         <canvas
-          className="absolute object-contain mr-auto ml-auto left-0 right-0"
+          className="row-start-1 col-start-1 w-full h-full"
           ref={canvasRef}
           style={{
             zindex: 8,
