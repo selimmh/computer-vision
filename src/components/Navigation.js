@@ -8,7 +8,7 @@ import ObjectIcon from "./../icons/Object.png";
 function Navigation() {
   let navigate = useNavigate();
   return (
-    <div className="flex flex-col items-center justify-center space-y-5 z-20">
+    <div className="flex flex-col items-center justify-center space-y-4 z-20">
       <div className="text-md md:text-2xl tracking-widest">
         Detection Models
       </div>

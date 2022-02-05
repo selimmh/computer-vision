@@ -9,7 +9,7 @@ import ObjectDetection from "./Models/ObjectDetection";
 function App() {
   return (
     <Router basename="/computer-vision">
-      <div className="w-screen h-screen bg-gray-100 text-gray-800 flex flex-col items-center justify-center space-y-10 overflow-hidden">
+      <div className="w-screen h-screen bg-gray-100 text-gray-800 flex flex-col items-center justify-center overflow-hidden space-y-4 select-none">
         <Routes>
           <Route path="/" element={<ObjectDetection />} />
           <Route path="/faceDetection" element={<FaceDetection />} />

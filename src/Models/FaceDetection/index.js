@@ -83,12 +83,9 @@ function FaceDetection() {
         )}
       </div>
 
-      {/* <div className="flex items-center justify-center">
-        <div className="w-[320px] h-[240px] md:w-[640px] md:h-[480px] bg-red-300 transition-all duration-300"></div>
-      </div> */}
-      <div className="flex">
+      <div className="grid grid-cols-1 w-auto h-auto scale-75 md:scale-100">
         <Webcam
-          className="abolute w-[320px] h-[240px] md:w-[640px] md:h-[480px] mr-auto ml-auto left-0 right-0"
+          className="row-start-1 col-start-1 w-full h-full"
           ref={webcamRef}
           muted={true}
           style={{
@@ -96,7 +93,7 @@ function FaceDetection() {
           }}
         />
         <canvas
-          className="absolute w-[320px] h-[240px] md:w-[640px] md:h-[480px] mr-auto ml-auto left-0 right-0"
+          className="row-start-1 col-start-1 w-full h-full"
           ref={canvasRef}
           style={{
             zindex: 8,
