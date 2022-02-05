@@ -83,7 +83,7 @@ function ObjectDetection() {
       </div> */}
       <div className="flex">
         <Webcam
-          className="abolute w-[320px] h-[240px] md:w-[640px] md:h-[480px] mr-auto ml-auto left-0 right-0"
+          className="abolute mr-auto ml-auto left-0 right-0"
           ref={webcamRef}
           muted={true}
           style={{
@@ -91,7 +91,9 @@ function ObjectDetection() {
           }}
         />
         <canvas
-          className="absolute w-[320px] h-[240px] md:w-[640px] md:h-[480px] mr-auto ml-auto left-0 right-0"
+          className="absolute mr-auto ml-auto left-0 right-0"
+          height={webcamRef.current.video.videoHeight}
+          width={webcamRef.current.video.videoWidth}
           ref={canvasRef}
           style={{
             zindex: 8,
