@@ -1,18 +1,20 @@
 <!-- Title -->
 
-# PERSONAL WEBSITE
+# COMPUTER VISION
 
 <!-- About -->
 
 ### About The Project
 
-Personal Website to showcase my work. Check it out [Here](https://selimmh.me/)
+Computer Vision software to detect objects, human hand and to render human face landmark. Check it out [Here](https://selimmh.github.io/computer-vision)
 
 #
 
 ### Preview
 
-![Preview 1](preview/preview.gif)
+![Preview 1](preview/objectModel.png)
+![Preview 2](preview/faceModel.png)
+![Preview 3](preview/handModel.png)
 
 #
 
@@ -31,19 +33,17 @@ E-mail - [@selim.mht@gmail.com](https://mail.google.com/)
 ### Built With
 
 - [React](https://reactjs.org)
-- [ThreeJs](https://tailwindcss.com)
+- [TensorflowJs](https://www.tensorflow.org/js)
+- [Tensorflow-models/coco-ssd](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
+- [Tensorflow-models/face-landmarks-detection](https://github.com/tensorflow/tfjs-models/tree/master/face-landmarks-detection)
+- [Tensorflow-models/handpose](https://github.com/tensorflow/tfjs-models/tree/master/handpose)
 - [TailwindCSS](https://tailwindcss.com)
-- [Gsap](https://tailwindcss.com)
 
 #
 
 ### Important Dependencies
 
-- [react-icons](https://github.com/react-icons/react-icons)
 - [react-spinners](https://www.npmjs.com/package/react-spinners)
-- [react-spring](https://www.npmjs.com/package/react-spring)
-- [react-teffex](https://www.npmjs.com/package/react-teffex)
-- [react-three-fiber](https://www.npmjs.com/package/@react-three/fiber)
+- [react-webcam](https://github.com/mozmorris/react-webcam)
 
 #
-# computer-vision
