@@ -92,8 +92,6 @@ function ObjectDetection() {
         />
         <canvas
           className="absolute mr-auto ml-auto left-0 right-0"
-          height={webcamRef.current.video.videoHeight}
-          width={webcamRef.current.video.videoWidth}
           ref={canvasRef}
           style={{
             zindex: 8,
