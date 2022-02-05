@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/computer-vision/static/css/main.114e005b.css",
-    "main.js": "/computer-vision/static/js/main.47cc15aa.js",
+    "main.css": "/computer-vision/static/css/main.93e00e4b.css",
+    "main.js": "/computer-vision/static/js/main.064f8e56.js",
     "index.html": "/computer-vision/index.html",
-    "main.114e005b.css.map": "/computer-vision/static/css/main.114e005b.css.map",
-    "main.47cc15aa.js.map": "/computer-vision/static/js/main.47cc15aa.js.map"
+    "main.93e00e4b.css.map": "/computer-vision/static/css/main.93e00e4b.css.map",
+    "main.064f8e56.js.map": "/computer-vision/static/js/main.064f8e56.js.map"
   },
   "entrypoints": [
-    "static/css/main.114e005b.css",
-    "static/js/main.47cc15aa.js"
+    "static/css/main.93e00e4b.css",
+    "static/js/main.064f8e56.js"
   ]
 }
